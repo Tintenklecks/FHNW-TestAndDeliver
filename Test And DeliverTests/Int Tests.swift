@@ -3,7 +3,7 @@
 @testable import Test_And_Deliver
 import XCTest
 
-final class Test_And_DeliverTests: XCTestCase {
+final class IntTests: XCTestCase {
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -24,10 +24,4 @@ final class Test_And_DeliverTests: XCTestCase {
         
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            Hanoi.move(n: 20, from: "A", to: "B", using: "C")
-        }
-    }
 }

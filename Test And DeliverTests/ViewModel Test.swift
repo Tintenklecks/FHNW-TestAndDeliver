@@ -3,7 +3,7 @@
 @testable import Test_And_Deliver
 import XCTest
 
-final class Test_And_DeliverTests: XCTestCase {
+final class ViewModelTests: XCTestCase {
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
