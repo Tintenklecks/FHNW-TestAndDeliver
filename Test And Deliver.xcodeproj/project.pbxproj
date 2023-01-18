@@ -24,8 +24,8 @@
 		B6AECC682975BE89003FBA0C /* ChatBot.ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC662975BE88003FBA0C /* ChatBot.ViewModel.swift */; };
 		B6AECC692975BE89003FBA0C /* ChatBot.Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC672975BE88003FBA0C /* ChatBot.Model.swift */; };
 		B6AECC6B2975BE9C003FBA0C /* ChatBot.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC6A2975BE9C003FBA0C /* ChatBot.View.swift */; };
-		B6AECC6F2975BEDD003FBA0C /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC6D2975BEDD003FBA0C /* Secret.swift */; };
 		B6AECC702975BEDD003FBA0C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC6E2975BEDD003FBA0C /* AppState.swift */; };
+		B6AECC722975C658003FBA0C /* SecretBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC712975C658003FBA0C /* SecretBlank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +68,7 @@
 		B6AECC6A2975BE9C003FBA0C /* ChatBot.View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBot.View.swift; sourceTree = "<group>"; };
 		B6AECC6D2975BEDD003FBA0C /* Secret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		B6AECC6E2975BEDD003FBA0C /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B6AECC712975C658003FBA0C /* SecretBlank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretBlank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +101,7 @@
 			children = (
 				B6AECC6E2975BEDD003FBA0C /* AppState.swift */,
 				B6AECC6D2975BEDD003FBA0C /* Secret.swift */,
+				B6AECC712975C658003FBA0C /* SecretBlank.swift */,
 				B66A1A6129755C7400D3EC69 /* Test And Deliver */,
 				B66A1A7229755C7700D3EC69 /* Test And DeliverTests */,
 				B66A1A7C29755C7700D3EC69 /* Test And DeliverUITests */,
@@ -324,10 +326,10 @@
 				B66A1A6329755C7400D3EC69 /* Test_And_DeliverApp.swift in Sources */,
 				B6AECC572975BC58003FBA0C /* String+NameExtension.swift in Sources */,
 				B6AECC5F2975BE08003FBA0C /* OpenAI.Service.swift in Sources */,
+				B6AECC722975C658003FBA0C /* SecretBlank.swift in Sources */,
 				B6AECC6B2975BE9C003FBA0C /* ChatBot.View.swift in Sources */,
 				B6AECC652975BE40003FBA0C /* Network.Error.swift in Sources */,
 				B6AECC702975BEDD003FBA0C /* AppState.swift in Sources */,
-				B6AECC6F2975BEDD003FBA0C /* Secret.swift in Sources */,
 				B6AECC602975BE08003FBA0C /* OpenAI.API.swift in Sources */,
 				B6AECC5E2975BE08003FBA0C /* OpenAI.Request.Structures.swift in Sources */,
 				B6AECC682975BE89003FBA0C /* ChatBot.ViewModel.swift in Sources */,
