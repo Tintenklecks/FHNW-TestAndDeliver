@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA8A404D29784B5900F33927 /* Network.Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A404529784B5900F33927 /* Network.Service.swift */; };
+		AA8A404E29784B5900F33927 /* Network.Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A404629784B5900F33927 /* Network.Error.swift */; };
+		AA8A404F29784B5900F33927 /* OWM.API.Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A404829784B5900F33927 /* OWM.API.Endpoints.swift */; };
+		AA8A405029784B5900F33927 /* OWM.DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A404929784B5900F33927 /* OWM.DataStructures.swift */; };
+		AA8A405129784B5900F33927 /* forecast.json in Resources */ = {isa = PBXBuildFile; fileRef = AA8A404B29784B5900F33927 /* forecast.json */; };
+		AA8A405429784BE500F33927 /* OWM.Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A405329784BE500F33927 /* OWM.Service.swift */; };
+		AABD5B0B29793EC500700E04 /* OWM.Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD5B0A29793EC400700E04 /* OWM.Service.swift */; };
 		B633760F2977D76E000C68CA /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633760E2977D76E000C68CA /* Int+Extension.swift */; };
 		B63376122977D8D3000C68CA /* Hanoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63376112977D8D3000C68CA /* Hanoi.swift */; };
 		B63376162977DF39000C68CA /* String Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63376152977DF39000C68CA /* String Tests.swift */; };
@@ -41,6 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA8A404529784B5900F33927 /* Network.Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.Service.swift; sourceTree = "<group>"; };
+		AA8A404629784B5900F33927 /* Network.Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.Error.swift; sourceTree = "<group>"; };
+		AA8A404829784B5900F33927 /* OWM.API.Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWM.API.Endpoints.swift; sourceTree = "<group>"; };
+		AA8A404929784B5900F33927 /* OWM.DataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWM.DataStructures.swift; sourceTree = "<group>"; };
+		AA8A404B29784B5900F33927 /* forecast.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = forecast.json; sourceTree = "<group>"; };
+		AA8A405329784BE500F33927 /* OWM.Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OWM.Service.swift; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/FHNW/Units/FHNW-Chart/FHNW-Charts/OWM API/OWM.Service.swift"; sourceTree = "<group>"; };
+		AABD5B0A29793EC400700E04 /* OWM.Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWM.Service.swift; sourceTree = "<group>"; };
 		B633760E2977D76E000C68CA /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 		B63376112977D8D3000C68CA /* Hanoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hanoi.swift; sourceTree = "<group>"; };
 		B63376152977DF39000C68CA /* String Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String Tests.swift"; sourceTree = "<group>"; };
@@ -86,12 +100,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA8A404429784B5900F33927 /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A404529784B5900F33927 /* Network.Service.swift */,
+				AA8A404629784B5900F33927 /* Network.Error.swift */,
+			);
+			path = "Network Layer";
+			sourceTree = "<group>";
+		};
+		AA8A404729784B5900F33927 /* OWM API */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A405329784BE500F33927 /* OWM.Service.swift */,
+				AABD5B0A29793EC400700E04 /* OWM.Service.swift */,
+				AA8A404829784B5900F33927 /* OWM.API.Endpoints.swift */,
+				AA8A404929784B5900F33927 /* OWM.DataStructures.swift */,
+				AA8A404A29784B5900F33927 /* Mock Data */,
+			);
+			path = "OWM API";
+			sourceTree = "<group>";
+		};
+		AA8A404A29784B5900F33927 /* Mock Data */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A404B29784B5900F33927 /* forecast.json */,
+			);
+			path = "Mock Data";
+			sourceTree = "<group>";
+		};
 		B66A1A5629755C7400D3EC69 = {
 			isa = PBXGroup;
 			children = (
-				B6AECC6E2975BEDD003FBA0C /* AppState.swift */,
-				B6AECC6D2975BEDD003FBA0C /* Secret.swift */,
-				B6AECC712975C658003FBA0C /* SecretBlank.swift */,
 				B66A1A6129755C7400D3EC69 /* Test And Deliver */,
 				B66A1A7229755C7700D3EC69 /* Test And DeliverTests */,
 				B66A1A7C29755C7700D3EC69 /* Test And DeliverUITests */,
@@ -113,10 +153,14 @@
 			isa = PBXGroup;
 			children = (
 				B66A1A6229755C7400D3EC69 /* Test_And_DeliverApp.swift */,
+				B6AECC6E2975BEDD003FBA0C /* AppState.swift */,
+				B6AECC712975C658003FBA0C /* SecretBlank.swift */,
 				B66A1A6429755C7400D3EC69 /* ContentView.swift */,
 				B63376112977D8D3000C68CA /* Hanoi.swift */,
 				B6AECC562975BC58003FBA0C /* String+NameExtension.swift */,
 				B633760E2977D76E000C68CA /* Int+Extension.swift */,
+				AA8A404429784B5900F33927 /* Network Layer */,
+				AA8A404729784B5900F33927 /* OWM API */,
 				B66A1A6629755C7700D3EC69 /* Assets.xcassets */,
 				B66A1A6829755C7700D3EC69 /* Preview Content */,
 			);
@@ -256,6 +300,7 @@
 			files = (
 				B66A1A6A29755C7700D3EC69 /* Preview Assets.xcassets in Resources */,
 				B66A1A6729755C7700D3EC69 /* Assets.xcassets in Resources */,
+				AA8A405129784B5900F33927 /* forecast.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,10 +326,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B66A1A6529755C7400D3EC69 /* ContentView.swift in Sources */,
+				AA8A405029784B5900F33927 /* OWM.DataStructures.swift in Sources */,
+				B66A1A6529755C7400D3EC69 /* ContentView.swift in Sources */,
+				AA8A404D29784B5900F33927 /* Network.Service.swift in Sources */,
 				B66A1A6329755C7400D3EC69 /* Test_And_DeliverApp.swift in Sources */,
+				AABD5B0B29793EC500700E04 /* OWM.Service.swift in Sources */,
+				AA8A405429784BE500F33927 /* OWM.Service.swift in Sources */,
+				AA8A404F29784B5900F33927 /* OWM.API.Endpoints.swift in Sources */,
 				B63376122977D8D3000C68CA /* Hanoi.swift in Sources */,
 				B6AECC572975BC58003FBA0C /* String+NameExtension.swift in Sources */,
 				B633760F2977D76E000C68CA /* Int+Extension.swift in Sources */,
+				AA8A404E29784B5900F33927 /* Network.Error.swift in Sources */,
 				B6AECC722975C658003FBA0C /* SecretBlank.swift in Sources */,
 				B6AECC702975BEDD003FBA0C /* AppState.swift in Sources */,
 			);
