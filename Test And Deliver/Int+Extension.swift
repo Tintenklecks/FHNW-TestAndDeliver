@@ -18,14 +18,26 @@ extension Int {
         return result
     }
 
-static func fib(_ n: Int) -> Int {
-    if n <= 2 {
-        return 1
-    } else {
-        return fib(n - 1) + fib(n - 2)
+    static func fib(_ n: Int) -> Int {
+        if n <= 2 {
+            return 1
+        } else {
+            return fib(n - 1) + fib(n - 2)
+        }
     }
-}
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     static func fibonacci(n: Int) -> Int {
         var first = 0
         var second = 1

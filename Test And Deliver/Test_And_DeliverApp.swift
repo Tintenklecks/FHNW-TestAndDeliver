@@ -11,6 +11,4 @@ struct Test_And_DeliverApp: App {
             ContentView()
         }
     }
-    
-    
 }

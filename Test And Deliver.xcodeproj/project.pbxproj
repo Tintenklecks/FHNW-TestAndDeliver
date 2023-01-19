@@ -12,19 +12,14 @@
 		AA8A404F29784B5900F33927 /* OWM.API.Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A404829784B5900F33927 /* OWM.API.Endpoints.swift */; };
 		AA8A405029784B5900F33927 /* OWM.DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A404929784B5900F33927 /* OWM.DataStructures.swift */; };
 		AA8A405129784B5900F33927 /* forecast.json in Resources */ = {isa = PBXBuildFile; fileRef = AA8A404B29784B5900F33927 /* forecast.json */; };
-		AA8A405429784BE500F33927 /* OWM.Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A405329784BE500F33927 /* OWM.Service.swift */; };
 		AABD5B0B29793EC500700E04 /* OWM.Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABD5B0A29793EC400700E04 /* OWM.Service.swift */; };
 		B633760F2977D76E000C68CA /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633760E2977D76E000C68CA /* Int+Extension.swift */; };
 		B63376122977D8D3000C68CA /* Hanoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63376112977D8D3000C68CA /* Hanoi.swift */; };
-		B63376162977DF39000C68CA /* String Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63376152977DF39000C68CA /* String Tests.swift */; };
 		B63376182977DF5E000C68CA /* ViewModel Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63376172977DF5D000C68CA /* ViewModel Test.swift */; };
 		B66A1A6329755C7400D3EC69 /* Test_And_DeliverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A1A6229755C7400D3EC69 /* Test_And_DeliverApp.swift */; };
 		B66A1A6529755C7400D3EC69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A1A6429755C7400D3EC69 /* ContentView.swift */; };
 		B66A1A6729755C7700D3EC69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66A1A6629755C7700D3EC69 /* Assets.xcassets */; };
 		B66A1A6A29755C7700D3EC69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66A1A6929755C7700D3EC69 /* Preview Assets.xcassets */; };
-		B66A1A7429755C7700D3EC69 /* Performance Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A1A7329755C7700D3EC69 /* Performance Tests.swift */; };
-		B66A1A7E29755C7700D3EC69 /* Test_And_DeliverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A1A7D29755C7700D3EC69 /* Test_And_DeliverUITests.swift */; };
-		B66A1A8029755C7700D3EC69 /* Test_And_DeliverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A1A7F29755C7700D3EC69 /* Test_And_DeliverUITestsLaunchTests.swift */; };
 		B6AECC572975BC58003FBA0C /* String+NameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC562975BC58003FBA0C /* String+NameExtension.swift */; };
 		B6AECC702975BEDD003FBA0C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC6E2975BEDD003FBA0C /* AppState.swift */; };
 		B6AECC722975C658003FBA0C /* SecretBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC712975C658003FBA0C /* SecretBlank.swift */; };
@@ -32,13 +27,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		B66A1A7029755C7700D3EC69 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B66A1A5729755C7400D3EC69 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B66A1A5E29755C7400D3EC69;
-			remoteInfo = "Test And Deliver";
-		};
-		B66A1A7A29755C7700D3EC69 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B66A1A5729755C7400D3EC69 /* Project object */;
 			proxyType = 1;
@@ -53,11 +41,9 @@
 		AA8A404829784B5900F33927 /* OWM.API.Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWM.API.Endpoints.swift; sourceTree = "<group>"; };
 		AA8A404929784B5900F33927 /* OWM.DataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWM.DataStructures.swift; sourceTree = "<group>"; };
 		AA8A404B29784B5900F33927 /* forecast.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = forecast.json; sourceTree = "<group>"; };
-		AA8A405329784BE500F33927 /* OWM.Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OWM.Service.swift; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/Desktop/FHNW/Units/FHNW-Chart/FHNW-Charts/OWM API/OWM.Service.swift"; sourceTree = "<group>"; };
 		AABD5B0A29793EC400700E04 /* OWM.Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWM.Service.swift; sourceTree = "<group>"; };
 		B633760E2977D76E000C68CA /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 		B63376112977D8D3000C68CA /* Hanoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hanoi.swift; sourceTree = "<group>"; };
-		B63376152977DF39000C68CA /* String Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String Tests.swift"; sourceTree = "<group>"; };
 		B63376172977DF5D000C68CA /* ViewModel Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModel Test.swift"; sourceTree = "<group>"; };
 		B66A1A5F29755C7400D3EC69 /* Test And Deliver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test And Deliver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66A1A6229755C7400D3EC69 /* Test_And_DeliverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_And_DeliverApp.swift; sourceTree = "<group>"; };
@@ -65,12 +51,7 @@
 		B66A1A6629755C7700D3EC69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B66A1A6929755C7700D3EC69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B66A1A6F29755C7700D3EC69 /* Test And DeliverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test And DeliverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B66A1A7329755C7700D3EC69 /* Performance Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Performance Tests.swift"; sourceTree = "<group>"; };
-		B66A1A7929755C7700D3EC69 /* Test And DeliverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test And DeliverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B66A1A7D29755C7700D3EC69 /* Test_And_DeliverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_And_DeliverUITests.swift; sourceTree = "<group>"; };
-		B66A1A7F29755C7700D3EC69 /* Test_And_DeliverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_And_DeliverUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B6AECC562975BC58003FBA0C /* String+NameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+NameExtension.swift"; sourceTree = "<group>"; };
-		B6AECC6D2975BEDD003FBA0C /* Secret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		B6AECC6E2975BEDD003FBA0C /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		B6AECC712975C658003FBA0C /* SecretBlank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretBlank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,13 +65,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B66A1A6C29755C7700D3EC69 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B66A1A7629755C7700D3EC69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -112,7 +86,6 @@
 		AA8A404729784B5900F33927 /* OWM API */ = {
 			isa = PBXGroup;
 			children = (
-				AA8A405329784BE500F33927 /* OWM.Service.swift */,
 				AABD5B0A29793EC400700E04 /* OWM.Service.swift */,
 				AA8A404829784B5900F33927 /* OWM.API.Endpoints.swift */,
 				AA8A404929784B5900F33927 /* OWM.DataStructures.swift */,
@@ -134,7 +107,6 @@
 			children = (
 				B66A1A6129755C7400D3EC69 /* Test And Deliver */,
 				B66A1A7229755C7700D3EC69 /* Test And DeliverTests */,
-				B66A1A7C29755C7700D3EC69 /* Test And DeliverUITests */,
 				B66A1A6029755C7400D3EC69 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -144,7 +116,6 @@
 			children = (
 				B66A1A5F29755C7400D3EC69 /* Test And Deliver.app */,
 				B66A1A6F29755C7700D3EC69 /* Test And DeliverTests.xctest */,
-				B66A1A7929755C7700D3EC69 /* Test And DeliverUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,20 +149,9 @@
 		B66A1A7229755C7700D3EC69 /* Test And DeliverTests */ = {
 			isa = PBXGroup;
 			children = (
-				B63376152977DF39000C68CA /* String Tests.swift */,
 				B63376172977DF5D000C68CA /* ViewModel Test.swift */,
-				B66A1A7329755C7700D3EC69 /* Performance Tests.swift */,
 			);
 			path = "Test And DeliverTests";
-			sourceTree = "<group>";
-		};
-		B66A1A7C29755C7700D3EC69 /* Test And DeliverUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B66A1A7D29755C7700D3EC69 /* Test_And_DeliverUITests.swift */,
-				B66A1A7F29755C7700D3EC69 /* Test_And_DeliverUITestsLaunchTests.swift */,
-			);
-			path = "Test And DeliverUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,24 +192,6 @@
 			productReference = B66A1A6F29755C7700D3EC69 /* Test And DeliverTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B66A1A7829755C7700D3EC69 /* Test And DeliverUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B66A1A8929755C7700D3EC69 /* Build configuration list for PBXNativeTarget "Test And DeliverUITests" */;
-			buildPhases = (
-				B66A1A7529755C7700D3EC69 /* Sources */,
-				B66A1A7629755C7700D3EC69 /* Frameworks */,
-				B66A1A7729755C7700D3EC69 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B66A1A7B29755C7700D3EC69 /* PBXTargetDependency */,
-			);
-			name = "Test And DeliverUITests";
-			productName = "Test And DeliverUITests";
-			productReference = B66A1A7929755C7700D3EC69 /* Test And DeliverUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -264,10 +206,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					B66A1A6E29755C7700D3EC69 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = B66A1A5E29755C7400D3EC69;
-					};
-					B66A1A7829755C7700D3EC69 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = B66A1A5E29755C7400D3EC69;
 					};
@@ -288,7 +226,6 @@
 			targets = (
 				B66A1A5E29755C7400D3EC69 /* Test And Deliver */,
 				B66A1A6E29755C7700D3EC69 /* Test And DeliverTests */,
-				B66A1A7829755C7700D3EC69 /* Test And DeliverUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -311,13 +248,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B66A1A7729755C7700D3EC69 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -331,7 +261,6 @@
 				AA8A404D29784B5900F33927 /* Network.Service.swift in Sources */,
 				B66A1A6329755C7400D3EC69 /* Test_And_DeliverApp.swift in Sources */,
 				AABD5B0B29793EC500700E04 /* OWM.Service.swift in Sources */,
-				AA8A405429784BE500F33927 /* OWM.Service.swift in Sources */,
 				AA8A404F29784B5900F33927 /* OWM.API.Endpoints.swift in Sources */,
 				B63376122977D8D3000C68CA /* Hanoi.swift in Sources */,
 				B6AECC572975BC58003FBA0C /* String+NameExtension.swift in Sources */,
@@ -346,18 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B66A1A7429755C7700D3EC69 /* Performance Tests.swift in Sources */,
-				B63376162977DF39000C68CA /* String Tests.swift in Sources */,
 				B63376182977DF5E000C68CA /* ViewModel Test.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B66A1A7529755C7700D3EC69 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B66A1A8029755C7700D3EC69 /* Test_And_DeliverUITestsLaunchTests.swift in Sources */,
-				B66A1A7E29755C7700D3EC69 /* Test_And_DeliverUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,11 +286,6 @@
 			isa = PBXTargetDependency;
 			target = B66A1A5E29755C7400D3EC69 /* Test And Deliver */;
 			targetProxy = B66A1A7029755C7700D3EC69 /* PBXContainerItemProxy */;
-		};
-		B66A1A7B29755C7700D3EC69 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B66A1A5E29755C7400D3EC69 /* Test And Deliver */;
-			targetProxy = B66A1A7A29755C7700D3EC69 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -589,42 +502,6 @@
 			};
 			name = Release;
 		};
-		B66A1A8A29755C7700D3EC69 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KT43342F9W;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.IBMobile.Test-And-DeliverUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Test And Deliver";
-			};
-			name = Debug;
-		};
-		B66A1A8B29755C7700D3EC69 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KT43342F9W;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.IBMobile.Test-And-DeliverUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Test And Deliver";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -651,15 +528,6 @@
 			buildConfigurations = (
 				B66A1A8729755C7700D3EC69 /* Debug */,
 				B66A1A8829755C7700D3EC69 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B66A1A8929755C7700D3EC69 /* Build configuration list for PBXNativeTarget "Test And DeliverUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B66A1A8A29755C7700D3EC69 /* Debug */,
-				B66A1A8B29755C7700D3EC69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

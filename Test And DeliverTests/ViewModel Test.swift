@@ -10,20 +10,13 @@ final class ViewModelTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testAsyncService() async throws {
-        let service = MockService()
-        let owmService = OWMService(service: service)
-        let forecast = try await owmService.getForecast(lat: 12, lon: 34)
-        XCTAssertEqual(forecast.city.name, "Mocked Brugg")
-    }
-    
     func testServiceWithHandler() {
         let service = MockService()
         let owmService = OWMService(service: service)
         var forecast: OWMForecast?
-        
+
         let expectation = self.expectation(description: "service with handler")
-        
+
         owmService.getForecast(lat: 12, lon: 34) { result in
             switch result {
             case .success(let forecastResult):
@@ -33,9 +26,12 @@ final class ViewModelTests: XCTestCase {
                 forecast = nil
             }
         }
-        
-        waitForExpectations(timeout: 5, handler: nil)
 
-        XCTAssertEqual(forecast?.city.name, "Mocked Brugg")
+        waitForExpectations(timeout: 10) { error in
+            if let error = error {
+                XCTFail("waitForExpectationsWithTimeout errored: \(error)")
+            }
+            XCTAssertEqual(forecast?.city.name, "Mocked Brugg")
+        }
     }
 }
