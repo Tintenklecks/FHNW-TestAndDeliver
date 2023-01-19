@@ -4,7 +4,7 @@ import Foundation
 
 extension String {
     var firstCapital: String {
-        self.prefix(1).capitalized + self.suffix(self.count - 1)
+        self.prefix(1).uppercased() + self.suffix(self.count - 1).lowercased()
     }
     
     var unifiedName: String {

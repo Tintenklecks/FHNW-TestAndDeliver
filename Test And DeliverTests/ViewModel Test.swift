@@ -4,30 +4,38 @@
 import XCTest
 
 final class ViewModelTests: XCTestCase {
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+    override func setUpWithError() throws {}
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testFactorial() {
-        // Test for positive number
-        let result = Int.factorial(n: 5)
-        XCTAssertEqual(result, 120, "Test with 120")
-        // Test for zero
-        let result2 = Int.factorial(n: 0)
-        assert(result2 == 1)
-        
-        // more?????
-        
+    func testAsyncService() async throws {
+        let service = MockService()
+        let owmService = OWMService(service: service)
+        let forecast = try await owmService.getForecast(lat: 12, lon: 34)
+        XCTAssertEqual(forecast.city.name, "Mocked Brugg")
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            Hanoi.move(n: 20, from: "A", to: "B", using: "C")
+    
+    func testServiceWithHandler() {
+        let service = MockService()
+        let owmService = OWMService(service: service)
+        var forecast: OWMForecast?
+        
+        let expectation = self.expectation(description: "service with handler")
+        
+        owmService.getForecast(lat: 12, lon: 34) { result in
+            switch result {
+            case .success(let forecastResult):
+                forecast = forecastResult
+                expectation.fulfill()
+            case .failure:
+                forecast = nil
+            }
         }
+        
+        waitForExpectations(timeout: 5, handler: nil)
+
+        XCTAssertEqual(forecast?.city.name, "Mocked Brugg")
     }
 }

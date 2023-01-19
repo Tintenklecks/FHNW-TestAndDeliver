@@ -19,9 +19,32 @@ final class StringTests: XCTestCase {
         // Test for zero
         let result2 = Int.factorial(n: 0)
         assert(result2 == 1)
-        
+
         // more?????
-        
     }
 
+    func testUnifiedName() {
+//        let values = [
+//            "inGo böHmE",
+//            "GORDON SHUMWAY",
+//            "ludvig van beethoven",
+//            "guy de monpassant",
+//            "Otto VON Bismark",
+//        ]
+//
+//        let estimations = [
+//            "Ingo Böhme",
+//            "Gordon Shumway",
+//            "Ludvig van Beethoven",
+//            "Guy de Monpassant",
+//            "Otto von Bismark",
+//        ]
+
+        // Let's do TDD
+        //        for (value, estimation) in zip(values, estimations) {
+        //
+        //            XCTAssertEqual(value.description.unifiedName, estimation, "Unified Name \(value.unifiedName) is not correct")
+        //
+        //        }
+    }
 }

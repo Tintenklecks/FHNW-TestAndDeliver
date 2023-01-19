@@ -16,8 +16,7 @@ final class PerformanceTests: XCTestCase {
         // This is an example of a performance test case.
         self.measure {
 
-            _ = Int.fib(10)
-            _ = Int.fibonacci(n: 10)
+            _ = Int.fib(20)
         }
     }
     
@@ -25,8 +24,7 @@ final class PerformanceTests: XCTestCase {
         // This is an example of a performance test case.
         self.measure {
 
-            _ = Int.fib(10)
-            _ = Int.fibonacci(n: 10)
+            _ = Int.fibonacci(n: 20)
         }
     }
 }
