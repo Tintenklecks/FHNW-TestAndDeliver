@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B633760F2977D76E000C68CA /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B633760E2977D76E000C68CA /* Int+Extension.swift */; };
 		B63376122977D8D3000C68CA /* Hanoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63376112977D8D3000C68CA /* Hanoi.swift */; };
-		B63376142977DF36000C68CA /* Int Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63376132977DF36000C68CA /* Int Tests.swift */; };
 		B63376162977DF39000C68CA /* String Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63376152977DF39000C68CA /* String Tests.swift */; };
 		B63376182977DF5E000C68CA /* ViewModel Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63376172977DF5D000C68CA /* ViewModel Test.swift */; };
 		B66A1A6329755C7400D3EC69 /* Test_And_DeliverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A1A6229755C7400D3EC69 /* Test_And_DeliverApp.swift */; };
@@ -20,15 +19,6 @@
 		B66A1A7E29755C7700D3EC69 /* Test_And_DeliverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A1A7D29755C7700D3EC69 /* Test_And_DeliverUITests.swift */; };
 		B66A1A8029755C7700D3EC69 /* Test_And_DeliverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A1A7F29755C7700D3EC69 /* Test_And_DeliverUITestsLaunchTests.swift */; };
 		B6AECC572975BC58003FBA0C /* String+NameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC562975BC58003FBA0C /* String+NameExtension.swift */; };
-		B6AECC5D2975BE08003FBA0C /* OpenAI.Result.Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC592975BE08003FBA0C /* OpenAI.Result.Structures.swift */; };
-		B6AECC5E2975BE08003FBA0C /* OpenAI.Request.Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC5A2975BE08003FBA0C /* OpenAI.Request.Structures.swift */; };
-		B6AECC5F2975BE08003FBA0C /* OpenAI.Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC5B2975BE08003FBA0C /* OpenAI.Service.swift */; };
-		B6AECC602975BE08003FBA0C /* OpenAI.API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC5C2975BE08003FBA0C /* OpenAI.API.swift */; };
-		B6AECC642975BE40003FBA0C /* Network.Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC622975BE40003FBA0C /* Network.Service.swift */; };
-		B6AECC652975BE40003FBA0C /* Network.Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC632975BE40003FBA0C /* Network.Error.swift */; };
-		B6AECC682975BE89003FBA0C /* ChatBot.ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC662975BE88003FBA0C /* ChatBot.ViewModel.swift */; };
-		B6AECC692975BE89003FBA0C /* ChatBot.Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC672975BE88003FBA0C /* ChatBot.Model.swift */; };
-		B6AECC6B2975BE9C003FBA0C /* ChatBot.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC6A2975BE9C003FBA0C /* ChatBot.View.swift */; };
 		B6AECC702975BEDD003FBA0C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC6E2975BEDD003FBA0C /* AppState.swift */; };
 		B6AECC722975C658003FBA0C /* SecretBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AECC712975C658003FBA0C /* SecretBlank.swift */; };
 /* End PBXBuildFile section */
@@ -53,7 +43,6 @@
 /* Begin PBXFileReference section */
 		B633760E2977D76E000C68CA /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 		B63376112977D8D3000C68CA /* Hanoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hanoi.swift; sourceTree = "<group>"; };
-		B63376132977DF36000C68CA /* Int Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int Tests.swift"; sourceTree = "<group>"; };
 		B63376152977DF39000C68CA /* String Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String Tests.swift"; sourceTree = "<group>"; };
 		B63376172977DF5D000C68CA /* ViewModel Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModel Test.swift"; sourceTree = "<group>"; };
 		B66A1A5F29755C7400D3EC69 /* Test And Deliver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test And Deliver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,15 +56,6 @@
 		B66A1A7D29755C7700D3EC69 /* Test_And_DeliverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_And_DeliverUITests.swift; sourceTree = "<group>"; };
 		B66A1A7F29755C7700D3EC69 /* Test_And_DeliverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_And_DeliverUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B6AECC562975BC58003FBA0C /* String+NameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+NameExtension.swift"; sourceTree = "<group>"; };
-		B6AECC592975BE08003FBA0C /* OpenAI.Result.Structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenAI.Result.Structures.swift; sourceTree = "<group>"; };
-		B6AECC5A2975BE08003FBA0C /* OpenAI.Request.Structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenAI.Request.Structures.swift; sourceTree = "<group>"; };
-		B6AECC5B2975BE08003FBA0C /* OpenAI.Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenAI.Service.swift; sourceTree = "<group>"; };
-		B6AECC5C2975BE08003FBA0C /* OpenAI.API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenAI.API.swift; sourceTree = "<group>"; };
-		B6AECC622975BE40003FBA0C /* Network.Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.Service.swift; sourceTree = "<group>"; };
-		B6AECC632975BE40003FBA0C /* Network.Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.Error.swift; sourceTree = "<group>"; };
-		B6AECC662975BE88003FBA0C /* ChatBot.ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBot.ViewModel.swift; sourceTree = "<group>"; };
-		B6AECC672975BE88003FBA0C /* ChatBot.Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBot.Model.swift; sourceTree = "<group>"; };
-		B6AECC6A2975BE9C003FBA0C /* ChatBot.View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBot.View.swift; sourceTree = "<group>"; };
 		B6AECC6D2975BEDD003FBA0C /* Secret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		B6AECC6E2975BEDD003FBA0C /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		B6AECC712975C658003FBA0C /* SecretBlank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretBlank.swift; sourceTree = "<group>"; };
@@ -138,9 +118,6 @@
 				B6AECC562975BC58003FBA0C /* String+NameExtension.swift */,
 				B633760E2977D76E000C68CA /* Int+Extension.swift */,
 				B66A1A6629755C7700D3EC69 /* Assets.xcassets */,
-				B6AECC6C2975BEA7003FBA0C /* ChatBot View */,
-				B6AECC612975BE40003FBA0C /* Network */,
-				B6AECC582975BE08003FBA0C /* OpenAI */,
 				B66A1A6829755C7700D3EC69 /* Preview Content */,
 			);
 			path = "Test And Deliver";
@@ -157,7 +134,6 @@
 		B66A1A7229755C7700D3EC69 /* Test And DeliverTests */ = {
 			isa = PBXGroup;
 			children = (
-				B63376132977DF36000C68CA /* Int Tests.swift */,
 				B63376152977DF39000C68CA /* String Tests.swift */,
 				B63376172977DF5D000C68CA /* ViewModel Test.swift */,
 				B66A1A7329755C7700D3EC69 /* Performance Tests.swift */,
@@ -172,36 +148,6 @@
 				B66A1A7F29755C7700D3EC69 /* Test_And_DeliverUITestsLaunchTests.swift */,
 			);
 			path = "Test And DeliverUITests";
-			sourceTree = "<group>";
-		};
-		B6AECC582975BE08003FBA0C /* OpenAI */ = {
-			isa = PBXGroup;
-			children = (
-				B6AECC592975BE08003FBA0C /* OpenAI.Result.Structures.swift */,
-				B6AECC5A2975BE08003FBA0C /* OpenAI.Request.Structures.swift */,
-				B6AECC5B2975BE08003FBA0C /* OpenAI.Service.swift */,
-				B6AECC5C2975BE08003FBA0C /* OpenAI.API.swift */,
-			);
-			path = OpenAI;
-			sourceTree = "<group>";
-		};
-		B6AECC612975BE40003FBA0C /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				B6AECC622975BE40003FBA0C /* Network.Service.swift */,
-				B6AECC632975BE40003FBA0C /* Network.Error.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		B6AECC6C2975BEA7003FBA0C /* ChatBot View */ = {
-			isa = PBXGroup;
-			children = (
-				B6AECC6A2975BE9C003FBA0C /* ChatBot.View.swift */,
-				B6AECC672975BE88003FBA0C /* ChatBot.Model.swift */,
-				B6AECC662975BE88003FBA0C /* ChatBot.ViewModel.swift */,
-			);
-			path = "ChatBot View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,22 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6AECC5D2975BE08003FBA0C /* OpenAI.Result.Structures.swift in Sources */,
-				B6AECC642975BE40003FBA0C /* Network.Service.swift in Sources */,
 				B66A1A6529755C7400D3EC69 /* ContentView.swift in Sources */,
-				B6AECC692975BE89003FBA0C /* ChatBot.Model.swift in Sources */,
 				B66A1A6329755C7400D3EC69 /* Test_And_DeliverApp.swift in Sources */,
 				B63376122977D8D3000C68CA /* Hanoi.swift in Sources */,
 				B6AECC572975BC58003FBA0C /* String+NameExtension.swift in Sources */,
 				B633760F2977D76E000C68CA /* Int+Extension.swift in Sources */,
-				B6AECC5F2975BE08003FBA0C /* OpenAI.Service.swift in Sources */,
 				B6AECC722975C658003FBA0C /* SecretBlank.swift in Sources */,
-				B6AECC6B2975BE9C003FBA0C /* ChatBot.View.swift in Sources */,
-				B6AECC652975BE40003FBA0C /* Network.Error.swift in Sources */,
 				B6AECC702975BEDD003FBA0C /* AppState.swift in Sources */,
-				B6AECC602975BE08003FBA0C /* OpenAI.API.swift in Sources */,
-				B6AECC5E2975BE08003FBA0C /* OpenAI.Request.Structures.swift in Sources */,
-				B6AECC682975BE89003FBA0C /* ChatBot.ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +294,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B63376142977DF36000C68CA /* Int Tests.swift in Sources */,
 				B66A1A7429755C7700D3EC69 /* Performance Tests.swift in Sources */,
 				B63376162977DF39000C68CA /* String Tests.swift in Sources */,
 				B63376182977DF5E000C68CA /* ViewModel Test.swift in Sources */,

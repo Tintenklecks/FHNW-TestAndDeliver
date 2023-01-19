@@ -1,23 +1,31 @@
-// Created 18.01.23 
+// Created 18.01.23
 
 import Foundation
 
 extension Int {
+    static func factorialRecursive(n: Int) -> Int {
+        if n == 1 {
+            return 1
+        }
+        return n * factorialRecursive(n: n - 1)
+    }
+
     static func factorial(n: Int) -> Int {
-        if n == 0 {
-            return 1
+        var result = 1
+        for i in 1...n {
+            result *= i
         }
-        return n * factorial(n: n - 1)
+        return result
     }
-    
-    static func fib(_ n: Int) -> Int {
-        if n <= 2 {
-            return 1
-        } else {
-            return fib(n-1) + fib(n-2)
-        }
+
+static func fib(_ n: Int) -> Int {
+    if n <= 2 {
+        return 1
+    } else {
+        return fib(n - 1) + fib(n - 2)
     }
-    
+}
+
     static func fibonacci(n: Int) -> Int {
         var first = 0
         var second = 1
@@ -35,6 +43,4 @@ extension Int {
             return current
         }
     }
-
-
 }

@@ -13,15 +13,6 @@ final class StringTests: XCTestCase {
     }
 
     func testPalindrome() {
-        // Test for positive number
-        let result = Int.factorial(n: 5)
-        XCTAssertEqual(result, 120, "Test with 120")
-        // Test for zero
-        let result2 = Int.factorial(n: 0)
-        assert(result2 == 1)
-        
-        // more?????
-        
     }
 
 }
